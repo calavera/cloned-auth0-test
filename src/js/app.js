@@ -1,8 +1,8 @@
 import Auth0Lock from "auth0-lock";
 import cookies from "cookies-js";
 
-const clientID = "Nhebo8BNzPnn7wUqzhGm0cdLEP2McLCC";
-const domain = "netlify.auth0.com";
+const clientID = "Y7kZiP2YXhkIe6AsO84r4GDSW3QCnnye";
+const domain = "bdougie.auth0.com";
 const lock = new Auth0Lock(clientID, domain, {auth: {
   params: {scope: "openid email user_metadata app_metadata picture"},
 }});
